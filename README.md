@@ -24,3 +24,15 @@ Ensure that your comparisons match this folder structure style
 │   └── dns_prefetch_run2
 │       ├── browsertime.json
 ```
+
+## Usage
+
+1. Define the perfstats that you want to observe in `plot_browsertime.py`
+2. Run: `python python3 plot_browsertime.py {path_to_root_of_files}`
+
+
+## Output
+
+The results will be plotted and simple statistics will be output.
+
+<img width="1487" alt="perfstats_from_browsertime" src="https://github.com/acreskeyMoz/perfstats_from_browsertime/assets/44072237/d006b350-001b-4943-8ceb-003f3ddc7945">
